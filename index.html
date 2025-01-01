@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="./logo.png" sizes="96x96" />
+    <title>Learning App</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css">
-  <title>Learning App</title>
-</head>
+  <body>
+    <h1>MINI JS LEARNING APP</h1>
+    <div id="buttons">
+      <button id="scope" onclick="show(0)">Scope</button>
+      <button id="hoisting" onclick="show(1)">Hoisting</button>
+      <button id="constructorfxn" onclick="show(2)">
+        Constructor Functions
+      </button>
+      <button id="prototype" onclick="show(3)">Prototype</button>
+    </div>
+    <div class="pop"></div>
+  </body>
 
-<body>
-  <h1>MINI JS LEARNING APP</h1>
-  <div id="buttons">
-    <button id="scope" onclick="show(0)">Scope</button>
-    <button id="hoisting" onclick="show(1)">Hoisting</button>
-    <button id="constructorfxn" onclick="show(2)">Constructor Functions</button>
-    <button id="prototype" onclick="show(3)">Prototype</button>
-  </div>
-  <div class="pop"></div>
-</body>
-
-<script src="index.js"></script>
-
+  <script src="index.js"></script>
 </html>
